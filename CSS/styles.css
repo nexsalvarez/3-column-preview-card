@@ -19,7 +19,7 @@ body {
     background-color: var(--very-light-gray);
 }
 main {
-    width: 100vw;
+    width: 100%;
     min-height: 90vh;
     display: grid;
     place-content: center;
@@ -77,6 +77,7 @@ p {
     width: 140px;
     height: auto;
     background-color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
     border-radius: 50px;
     padding: 12px 24px;
     font-size: 1.5rem;
@@ -93,12 +94,19 @@ p {
 .button-luxury {
     color: var(--very-dark-cyan);
 }
+.button-sedans:hover,
+.button-suvs:hover,
+.button-luxury:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+    cursor: pointer;
+}
 
 /*Footer Styles*/
 
 footer {
-    width: 100vw;
-    min-height: 10vw;
+    width: 100%;
+    min-height: 10vh;
     display: grid;
     place-content: center;
     padding: 20px 20px;

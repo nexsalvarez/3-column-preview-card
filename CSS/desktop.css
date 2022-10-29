@@ -1,0 +1,30 @@
+main {
+    padding: 0 20px;
+}
+.card-main-container {
+    min-width: 760px;
+    max-width: 940px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.cars-type-sedans {
+    grid-column: 1;
+    grid-row: inherit;
+}
+.cars-type-suvs {
+    grid-column: 2;
+    grid-row: inherit;
+}
+.cars-type-luxury {
+    grid-column: 3;
+    grid-row: inherit;
+}
+.button-sedans,
+.button-suvs,
+.button-luxury {
+    margin-top: 48px;
+}
+footer {
+    height: 10vh;
+    padding: 0 20px;
+}
